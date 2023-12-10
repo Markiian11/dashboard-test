@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/adaptive.css">
+    <link rel="shortcut icon" href="icons/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside>
+        <div class="aside_content">
+            <div class="logo">
+                <img src="./icons/logo.png" alt="logo">
+                <h1>Dashboard <span>v.01</span></h1>
+            </div>
+    
+            <div class="sidebar">
+                <a href="#">
+                    <div>
+                        <img src="./icons/key.png" alt="key icon">
+                        <h2>Dashboard</h2>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="./icons/square.png" alt="square icon">
+                        <h2>Product</h2>
+                    </div>
+                    <img src="./icons/arrow.png" alt="arrow" class="arrow">
+                </a>
+                <a href="#" class="active">
+                    <div>
+                        <img src="./icons/user.png" alt="user icon">
+                        <h2>Customers</h2>
+                    </div>
+                    <img src="./icons/arrow-white.png" alt="arrow" class="arrow">
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="./icons/wallet.png" alt="wallet icon">
+                        <h2>Income</h2>
+                    </div>
+                    <img src="./icons/arrow.png" alt="arrow" class="arrow">
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="./icons/discount.png" alt="discount icon">
+                        <h2>Promote</h2>
+                    </div>
+                    <img src="./icons/arrow.png" alt="arrow" class="arrow">
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="./icons/message.png" alt="message icon">
+                        <h2>Help</h2>
+                    </div>
+                    <img src="./icons/arrow.png" alt="arrow" class="arrow">
+                </a>
+            </div>
+    
+            <div class="user">
+                <img src="./icons/evano.png" alt="Evano Image">
+                <div class="user_desc"> 
+                    <h3>Evano</h3>
+                    <span>Project Manager</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <p>Hello Evano 👋🏼,</p>
+        <div class="customers">
+            <div class="customers_desc">
+                <div class="customers_title">
+                    <h4>All Customers</h4>
+                    <h5>Active Members</h5>
+                </div>
+                <input style="background-color:#F9FBFF;" type="text" placeholder="Search">
+            </div>
+            <div class="customers_info">
+                <ul class="title_list">
+                    <li>Customer Name</li>
+                    <li>Company</li>
+                    <li>Phone Number</li>
+                    <li>Email</li>
+                    <li>Country</li>
+                    <li>Status</li>
+                </ul>
+                <hr class="main_hr">
+                <ul class="list">
+                    <li>Jane Cooper</li>
+                    <li>Microsoft</li>
+                    <li>(225) 555-0118</li>
+                    <li>jane@microsoft.com</li>
+                    <li>United States</li>
+                    <div class="active">Active</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Floyd Miles</li>
+                    <li>Yahoo</li>
+                    <li>(205) 555-0100</li>
+                    <li>floyd@yahoo.com</li>
+                    <li>Kiribati</li>
+                    <div class="inactive">Inactive</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Ronald Richards</li>
+                    <li>Adobe</li>
+                    <li>(302) 555-0107</li>
+                    <li>ronald@adobe.com</li>
+                    <li>Israel</li>
+                    <div class="inactive">Inactive</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Marvin McKinney</li>
+                    <li>Tesla</li>
+                    <li>(252) 555-0126</li>
+                    <li>marvin@tesla.com</li>
+                    <li>Iran</li>
+                    <div class="active">Active</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Jerome Bell</li>
+                    <li>Google</li>
+                    <li>(629) 5550-0129</li>
+                    <li>jerome@google.com</li>
+                    <li>Reunion</li>
+                    <div class="active">Active</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Kathryn Murphy</li>
+                    <li>Microsoft</li>
+                    <li>(496) 555-0120</li>
+                    <li>kathryn@microsoft.com</li>
+                    <li>Curacao</li>
+                    <div class="active">Active</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Jacob Jones</li>
+                    <li>Yahoo</li>
+                    <li>(208) 555-0112</li>
+                    <li>jacob@yahoo.com</li>
+                    <li>Brazil</li>
+                    <div class="active">Active</div>
+                </ul>
+                <hr>
+                <ul class="list">
+                    <li>Kristian Watson</li>
+                    <li>Facebook</li>
+                    <li>(704) 555-0127</li>
+                    <li>kristin@facebook.com</li>
+                    <li>Aland Islands</li>
+                    <div class="inactive">Inactive</div>
+                </ul>
+                <hr>
+            </div>
+            <div class="data">
+                <p>Showing data 1 to 8 of 256K entries</p>
+                <div class="pages">
+                    <button><img src="./icons/arrow-left.png" alt="arrow"></button>
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <span>...</span>
+                    <button>40</button>
+                    <button><img src="./icons/arrow-right.png" alt="arrow"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
